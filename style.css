@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:focus {
+    outline: none;
+}
+
+body {
+    background-color: #313131;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+#app {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+
+.btn {
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #28b1bd;
+    color: whitesmoke;
+}
+
+.infos {
+    margin-top: 2rem;
+}
+
+.infos h2 {
+    margin-bottom: 1rem;
+}
+
+.infos p {
+    line-height: 2rem;
+}
+
+.infos a {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
